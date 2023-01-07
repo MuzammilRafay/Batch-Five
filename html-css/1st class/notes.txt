@@ -1,0 +1,25 @@
+What is html?
+
+html stands for hyper text markup language
+
+
+
+how to enable extension enable in windows 7
+
+
+https://www.w3schools.com/html/default.asp
+
+html element
+attribute
+block element vs inline block element
+https://www.w3schools.com/html/html_blocks.asp
+
+
+block element take all width
+inline block element take only text width
+
+1-inline styling
+2-internal styling
+3-external styling
+
+https://www.youtube.com/watch?v=JNixBunE76U&list=PLhruWMYekkKoKL3BA-_RJRUNz4RTNsAac&ab_channel=MuzammilRafay
