@@ -1,0 +1,4 @@
+we have id attribute and we have class attribute
+
+in css we use # sign for id and id is use for specific/unique element
+in css we use . sign for class and class is used for targeting multple element
