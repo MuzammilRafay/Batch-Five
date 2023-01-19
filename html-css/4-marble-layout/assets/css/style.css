@@ -7,8 +7,12 @@ body {
   background-color: #f7f7f7;
   padding-bottom: 100px;
 }
+
+p {
+  color: #737373;
+}
 .container {
-  padding: 0px 60px;
+  padding: 0px 150px;
 }
 
 /* pseudo class */
@@ -76,4 +80,50 @@ body {
   color: #4e4e4e;
   margin-top: 60px;
   font-weight: 600;
+}
+
+.work-items {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+}
+
+/* : pseudo classes */
+.work-items:nth-child(3) {
+  margin-right: 0px;
+}
+
+.work-items img {
+  width: 100%;
+}
+
+.work-items h3 {
+  color: #4e4e4e;
+  margin-top: 10px;
+}
+.work-items .gray-paragraph {
+  color: #bebebe;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#works-container {
+  margin-top: 30px;
+}
+
+#testimonials-container {
+  height: 200px;
+  background-color: #efefef;
+  text-align: center;
+  padding-top: 60px;
+  box-sizing: border-box;
+  margin-top: 60px;
+}
+
+#testimonials-container img {
+  margin-bottom: 20px;
+}
+
+#testimonials-container p {
+  color: #ababab;
 }
