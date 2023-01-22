@@ -5,7 +5,6 @@
 
 body {
   background-color: #f7f7f7;
-  padding-bottom: 100px;
 }
 
 p {
@@ -126,4 +125,113 @@ p {
 
 #testimonials-container p {
   color: #ababab;
+}
+
+#footer {
+  background-color: #1f1f1f;
+  /* height: 400px; */
+  padding-top: 60px;
+  box-sizing: border-box;
+  padding-bottom: 60px;
+}
+
+.footer-items {
+  float: left;
+  width: 23%;
+  margin-right: 2%;
+}
+.footer-items:nth-child(4) {
+  margin-right: 0px;
+}
+
+.footer-items h4 {
+  text-transform: uppercase;
+  color: #6c6c6c;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.footer-items p {
+  margin-bottom: 40px;
+  color: #b8b8b8;
+}
+
+#sub-footer {
+  border-bottom: 2px solid #313131;
+  margin-bottom: 60px;
+}
+#twitter-footer p {
+  position: relative;
+}
+#twitter-footer p:before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/tweet.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -20px;
+  top: 5px;
+}
+
+/* media query sab se niche likhni hoti hai */
+
+/* 
+900 k bad ye css apply hogi
+*/
+
+@media (max-width: 900px) {
+  .container {
+    padding: 0px 40px;
+  }
+}
+
+/* 
+780 ke bad yee css apply width hogi
+*/
+@media (max-width: 780px) {
+  #header {
+    padding: 0px;
+    height: auto;
+  }
+  #logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  #navigation {
+    float: none;
+    width: 100%;
+  }
+  #navigation ul {
+    text-align: center;
+    padding: 0;
+  }
+  #navigation ul li {
+    float: none;
+    margin-bottom: 20px;
+  }
+  .bussiness-items {
+    float: none;
+    width: 100%;
+  }
+  .work-items {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #footer {
+    text-align: center;
+  }
+  .footer-items {
+    float: none;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  #main-heading {
+    text-align: center;
+  }
 }
