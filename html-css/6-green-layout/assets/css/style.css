@@ -107,6 +107,7 @@ body {
   position: absolute;
   top: -17px;
   left: 42%;
+  width: 195px;
 }
 
 #temp-white-bg-effect {
@@ -116,4 +117,58 @@ body {
   left: 41%;
   width: 218px;
   height: 50px;
+}
+
+#testimonails-container {
+  margin-top: 40px;
+}
+
+#testimonial-image {
+  float: left;
+  width: 35%;
+}
+
+#testimonial-right-side {
+  float: right;
+  width: 65%;
+  margin-top: 20px;
+}
+
+#testimonial-right-side p {
+  text-align: center;
+  margin-top: 20px;
+  color: #b3a1a2;
+}
+
+#footer {
+  padding-top: 60px;
+}
+
+#footer-left-side {
+  float: left;
+  width: 60%;
+}
+
+#footer-right-side {
+  float: right;
+  width: 40%;
+  text-align: right;
+}
+
+.contact-info {
+  margin-bottom: 10px;
+}
+
+.contact-info img {
+  float: left;
+}
+
+.contact-info p {
+  float: left;
+  margin-top: 8px;
+  margin-left: 9px;
+}
+
+#social-image {
+  margin-top: 80px;
 }
