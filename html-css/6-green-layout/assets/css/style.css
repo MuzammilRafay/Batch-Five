@@ -6,6 +6,7 @@
 body {
   padding-bottom: 100px;
 }
+
 #header {
   background-color: #151515;
   color: white;
@@ -171,4 +172,105 @@ body {
 
 #social-image {
   margin-top: 80px;
+}
+
+/*
+https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/
+  320px — 480px: Mobile devices
+  481px — 768px: iPads, Tablets
+  769px — 1024px: Small screens, laptops
+  1025px — 1200px: Desktops, large screens
+  1201px and more —  Extra large screens, TV
+*/
+
+/* 
+Repeat Responsive From This Link
+
+https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery
+
+
+*/
+
+/*  Desktops, large screens */
+@media (max-width: 1200px) {
+  .skills-items {
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Small screens, laptops */
+@media (max-width: 1024px) {
+  #logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  #navigation {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #navigation ul {
+    padding-left: 200px;
+  }
+
+  #testimonial-right-side {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* iPads, Tablets */
+@media (max-width: 768px) {
+  #navigation ul {
+    padding-left: 90px;
+  }
+  #testimonial-image {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 580px) {
+  #navigation ul {
+    padding-left: 0px;
+  }
+  #navigation ul li {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  #line-heading-section button {
+    left: 30%;
+  }
+  #temp-white-bg-effect {
+    left: 28%;
+  }
+  #footer-left-side {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #footer-right-side {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .contact-info {
+    margin-left: 68px;
+  }
+}
+
+@media (max-width: 480px) {
+  #section-one-image {
+    height: 500px;
+  }
 }
