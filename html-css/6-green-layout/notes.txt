@@ -1,0 +1,13 @@
+css varibles
+
+https://www.w3schools.com/css/css3_variables.asp
+
+
+variable is like a container
+
+name = value like 1234 asdklajsdklajskldjaklsjdasd
+
+
+https://nekocalc.com/px-to-rem-converter
+
+

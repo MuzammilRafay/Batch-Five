@@ -1,15 +1,43 @@
-* {
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+/* 
+colors
+font-family
+
+https://www.w3schools.com/cssref/css_units.php
+
+default font size is 16px to every element
+
+em	Relative to the font-size of the element (2em means 2 times the size of the current font) 1em = 30px  // it is relative to parent element font size
+
+rem	Relative to font-size of the root element
+------------------------------------------------------
+we can use rem in margin,padding,width (only in pixel width)
+font-size
+*/
+
+:root {
+  --text-1: #b3a1a2;
+  --white:#fff;
+  --header-bg:#151515;
+  --nav-color:green;
+  --btn-1:#40a208;
+  --btn-2:#008000;
+  --heading-3:#c0b0a7;
+  --font-family: Arial, Helvetica, sans-serif;
 }
 
+* {
+  margin: 0px;
+  font-family: var(--font-family);
+}
+
+
 body {
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem;
 }
 
 #header {
-  background-color: #151515;
-  color: white;
+  background-color: var(--header-bg);
+  color: var(--white);
 }
 
 .container {
@@ -36,39 +64,39 @@ body {
 #navigation ul li {
   float: left;
   list-style-type: none;
-  margin-right: 20px;
-  margin-top: 25px;
+  margin-right: 1.25rem;
+  margin-top: 1.563rem;
 }
 
 #navigation ul li:nth-child(even) {
-  color: green;
+  color: var(--nav-color);
 }
 
 #section-one-image {
-  height: 400px;
+  height: 25rem;
   background-image: url("../images/banner.jpg");
   background-size: cover;
-  padding-top: 80px;
+  padding-top: 5rem;
   box-sizing: border-box;
-  color: white;
+  color: var(--white);
 }
 
 #section-one-image h1 {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 100;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 #section-one-image h3 {
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 #section-one-image button {
-  background-color: #40a208;
-  color: white;
+  background-color: var(--btn-1);
+  color: var(--white);
   border: none;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   border-radius: 5px;
 }
 
@@ -76,52 +104,52 @@ body {
   float: left;
   width: 29%;
   text-align: center;
-  margin-right: 63px;
+  margin-right: 3.938rem;
 }
 
 .skills-items:nth-child(3) {
   margin-right: 0px;
 }
 .skills-items h3 {
-  color: #c0b0a7;
-  margin-bottom: 10px;
+  color: var(--heading-3);
+  margin-bottom: 0.625rem;
 }
 .skills-items p {
-  color: #b3a1a2;
+  color: var(--text-1);
 }
 #skills-container {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 #line-heading-section {
-  margin-top: 80px;
+  margin-top: 5rem;
   text-align: center;
   position: relative;
 }
 #line-heading-section button {
-  background-color: #008000;
-  color: white;
+  background-color: var(--btn-2);
+  color: var(--white);
   border: none;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   text-transform: uppercase;
   font-weight: 600;
 
   position: absolute;
   top: -17px;
   left: 42%;
-  width: 195px;
+  width: 12.188rem;
 }
 
 #temp-white-bg-effect {
-  background-color: white;
+  background-color: var(--white);
   position: absolute;
   top: -23px;
   left: 41%;
-  width: 218px;
-  height: 50px;
+  width: 13.625rem;
+  height: 3.125rem;
 }
 
 #testimonails-container {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 #testimonial-image {
@@ -132,13 +160,13 @@ body {
 #testimonial-right-side {
   float: right;
   width: 65%;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 #testimonial-right-side p {
   text-align: center;
-  margin-top: 20px;
-  color: #b3a1a2;
+  margin-top: 1.25rem;
+  color: var(--text-1);
 }
 
 #footer {
@@ -157,7 +185,7 @@ body {
 }
 
 .contact-info {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .contact-info img {
@@ -166,17 +194,17 @@ body {
 
 .contact-info p {
   float: left;
-  margin-top: 8px;
-  margin-left: 9px;
+  margin-top: 0.5rem;
+  margin-left: 0.563rem;
 }
 
 #social-image {
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 /*
 https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/
-  320px — 480px: Mobile devices
+  31.25rem — 480px: Mobile devices
   481px — 768px: iPads, Tablets
   769px — 1024px: Small screens, laptops
   1025px — 1200px: Desktops, large screens
@@ -227,6 +255,9 @@ https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery
 
 /* iPads, Tablets */
 @media (max-width: 768px) {
+  html{
+    font-size: 14px;
+  }
   #navigation ul {
     padding-left: 90px;
   }
@@ -239,6 +270,9 @@ https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery
 
 /* Mobile devices */
 @media (max-width: 580px) {
+  html{
+    font-size: 12px;
+  }
   #navigation ul {
     padding-left: 0px;
   }
