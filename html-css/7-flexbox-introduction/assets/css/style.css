@@ -1,0 +1,33 @@
+.container{
+    background-color: dodgerblue;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */ 
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-start; */ 
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    /* flex-wrap: nowrap; default*/
+    flex-wrap: wrap;
+    height: 600px;
+
+    /* align-items: stretch; */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    align-items: flex-end;
+
+    /* gap: 10px; x axis or y axis both have this 10px space */
+    gap: 10px 10px; 
+     /*first work on x axis and second will work on y axis  */
+}
+
+.container div{
+    background-color: #f1f1f1;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
