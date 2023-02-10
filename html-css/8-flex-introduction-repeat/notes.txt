@@ -1,0 +1,17 @@
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+you can structure your layout with flexbox properties
+
+
+we have two type of properties in flexbox
+
+1-one for parent
+2-second for children
+
+
+
+1-Parent Flexbox Properties
+
+display:flex;
+flex-direction:row | row-reverse | column | column-reverse;

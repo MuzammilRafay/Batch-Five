@@ -1,0 +1,75 @@
+.container {
+  background-color: dodgerblue;
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+
+  /* flex-flow: row wrap; */
+
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+
+  /* height: 800px; */
+  height: 400px;
+
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+  align-items: center;
+
+  /* it will work only when we have flex-wrap situation */
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: center; */
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+
+  /* gap: 10px 20px; */
+
+  /* row-gap: 10px; */
+  /* column-gap: 20px; */
+
+  /* flex-direction: column; */
+}
+
+.container div {
+  background-color: #f1f1f1;
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#first-container-child {
+  /* order: 2; */
+  /* flex-grow: 1; */
+}
+
+#second-container-child {
+  /* order: 3; */
+  /* flex-grow: 3; */
+
+  /* flex-shrink: 3; */
+
+  /* flex-basis: 40%; */
+  /* width: 40%; */
+
+  flex: 0 1 40%;
+  /* grow | shrink | flex-basis */
+
+  /* align-self: flex-start; */
+  /* align-self: flex-end; */
+}
+
+#third-container-child {
+  /* order: 1; */
+  /* flex-grow: 1; */
+}
