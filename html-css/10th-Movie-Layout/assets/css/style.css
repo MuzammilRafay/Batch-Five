@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  --black: black;
+  --white: white;
+  --yellow: #f6d200;
+  --body-color: #ededed;
+}
+
+/* 1rem = 16px because html font size is 16px by default */
+
+body {
+  background-color: var(--body-color);
+}
+header {
+  height: 300px;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center; /* horizantal center */
+  align-items: center; /* vertical center */
+  text-align: center;
+}
+
+header h1 {
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 400;
+}
+header p {
+  color: var(--yellow);
+  font-style: italic;
+}
+
+nav {
+  background-color: var(--yellow);
+  display: flex;
+  padding: 0.75rem 0px;
+}
+.nav-item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#main-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+#main-section main {
+  flex-basis: 78%;
+}
+#main-section aside {
+  flex-basis: 20%;
+}
+.featured-item {
+  background-color: var(--white);
+  padding: 1.25rem;
+  margin-bottom: 2rem;
+}
+.featured-item h3 {
+  font-size: 1.063rem;
+  margin-bottom: 1.25rem;
+}
+
+.featured-item h4 {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  margin-left: 1.125rem;
+}
