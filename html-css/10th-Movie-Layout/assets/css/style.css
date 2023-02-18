@@ -160,3 +160,65 @@ nav {
 #second-sport-movie {
   flex-direction: row-reverse;
 }
+#download-container {
+  margin-bottom: 2rem;
+}
+#download-body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -4px;
+}
+#download-body img {
+  width: 60px;
+}
+#download-body-first {
+  background-color: var(--black);
+  color: var(--white);
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#download-body-first i {
+  font-size: 2.5rem;
+}
+#download-body-second {
+  background-color: var(--white);
+  flex-grow: 3;
+  padding: 0.8rem;
+}
+#download-body-third {
+  background-color: var(--yellow);
+  flex-grow: 1;
+}
+#genre-section {
+  display: flex;
+}
+#genre-section div:nth-child(2) {
+  margin-left: 4rem;
+}
+#cast-section {
+  display: flex;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+
+#cast-images {
+  margin-left: 4rem;
+}
+
+#cast-images img {
+  border-radius: 50%;
+}
+
+#download-body-third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#download-body-third h3 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
