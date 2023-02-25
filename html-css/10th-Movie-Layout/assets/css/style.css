@@ -264,3 +264,69 @@ footer {
   text-align: center;
   color: var(--white);
 }
+
+/*
+https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/
+  31.25rem — 480px: Mobile devices
+  481px — 768px: iPads, Tablets
+  769px — 1024px: Small screens, laptops
+  1025px — 1200px: Desktops, large screens
+  1201px and more —  Extra large screens, TV
+*/
+
+/* Desktops, large screens */
+@media (max-width: 1200px) {
+}
+/* Small screens, laptops */
+@media (max-width: 1024px) {
+  #main-section {
+    flex-direction: column;
+  }
+}
+/* iPads, Tablets */
+@media (max-width: 768px) {
+  .sport-movies {
+    flex-direction: column;
+  }
+  #second-sport-movie {
+    flex-direction: column-reverse;
+  }
+  #second-sport-movie img {
+    margin-top: 2rem;
+  }
+  .sport-movie-section-one {
+    text-align: center;
+  }
+  .sport-movie-section-one img {
+    width: 60%;
+  }
+  .sport-movie-section-two {
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  #movie-colletions {
+    flex-direction: column;
+  }
+  #download-body {
+    flex-direction: column;
+  }
+  #download-body-first {
+    padding: 2rem;
+  }
+  #download-body-second {
+    padding: 2rem;
+  }
+  #download-body-third {
+    padding: 2rem;
+  }
+}
+/* Mobile devices */
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+  }
+  .nav-item {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
