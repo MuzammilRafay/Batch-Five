@@ -1,0 +1,69 @@
+:root {
+  --black: black;
+  --white: white;
+  --text-color: #c9c9c9;
+  --font-family: "Myriad Pro Regular";
+}
+
+/* CUSTOM FONT LAGANE KA TAREEQA YE HAI */
+
+@font-face {
+  font-family: "Myriad Pro Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Myriad Pro Regular"),
+    url("fonts/myriad-pro-cufonfonts-webfont/MYRIADPRO-REGULAR.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Myriad Pro Regular";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Myriad Pro Regular"),
+    url("fonts/myriad-pro-cufonfonts-webfont/MYRIADPRO-BOLD.woff")
+      format("woff");
+}
+
+* {
+  margin: 0;
+  font-family: var(--font-family);
+}
+body {
+  padding-bottom: 10rem;
+}
+
+header {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#sub-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0px;
+}
+
+#navigation ul {
+  display: flex;
+}
+
+#navigation ul li {
+  list-style-type: none;
+  margin-right: 2rem;
+  color: var(--text-color);
+}
+
+#introduction-section {
+  background-image: url("../images/image.png");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
