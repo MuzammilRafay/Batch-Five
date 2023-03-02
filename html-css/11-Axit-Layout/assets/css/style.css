@@ -2,6 +2,12 @@
   --black: black;
   --white: white;
   --text-color: #c9c9c9;
+  --text-color-2: #727171;
+  --text-color-3: #333333;
+  --primary-color: #ff8b38;
+  --primary-color-2: #ff9b51;
+  --border-color: #d6d6d6;
+  --trail-form-header-color: #f5f5f5;
   --font-family: "Myriad Pro Regular";
 }
 
@@ -65,4 +71,92 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  padding-top: 6rem;
+}
+
+#introduction-sub-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-item-introduction {
+  flex-basis: 50%;
+}
+
+.second-item-introduction {
+  flex-basis: 30%;
+}
+.common-heading {
+  font-size: 2.5rem;
+  color: var(--white);
+  font-weight: 100;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.common-hr {
+  width: 4rem;
+  margin-bottom: 2rem;
+  height: 1px;
+  background: var(--white);
+}
+.common-paragraph {
+  color: var(--text-color-2);
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.common-download-btn {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+  font-size: 1.1rem;
+  padding: 0.5rem 1.5rem;
+}
+#trail-form-header {
+  background-color: var(--trail-form-header-color);
+  text-align: center;
+  padding: 0.8rem 1rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+#trail-form-header h2 {
+  color: var(--text-color-3);
+}
+
+#trail-form-header h2 span {
+  color: var(--primary-color);
+}
+
+#trail-form-body {
+  background-color: var(--white);
+  padding: 1.5rem 1.3rem;
+}
+#trail-form-body input {
+  width: 90%;
+  margin-bottom: 2.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--border-color);
+  font-size: 1rem;
+}
+
+#trail-form-body input::placeholder {
+  color: var(--border-color);
+}
+
+#trail-form-body input:focus-visible {
+  outline: none;
+}
+
+#trail-form-footer button {
+  background-color: var(--primary-color-2);
+  width: 100%;
+  border: none;
+  outline: none;
+  color: var(--white);
+  padding: 1rem 2rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  font-size: 1.2rem;
 }
