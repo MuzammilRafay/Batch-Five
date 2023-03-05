@@ -229,7 +229,7 @@ header {
   border: none;
   padding: 0.6rem 2rem;
   font-size: 1rem;
-  border-radius: 0.3 rem;
+  border-radius: 0.3rem;
 }
 
 .tabs-button-active {
@@ -243,4 +243,86 @@ header {
 .tabs-button-third-item {
   border-bottom-left-radius: 0.3rem;
   border-bottom-right-radius: 0.3rem;
+}
+
+#sub-list-main-container {
+  padding: 8rem 0px;
+}
+#sub-list-main {
+  display: flex;
+  justify-content: space-between;
+}
+.sub-list-heading {
+  color: var(--text-color-3);
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+.sub-list-heading-divider {
+  width: 10%;
+  height: 1px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  margin-bottom: 1.2rem;
+}
+.sub-list-paragraph {
+  color: var(--text-color-2);
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.information-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+.first-item-information {
+  flex-basis: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-item-information {
+  flex-basis: 90%;
+}
+.information-container i {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  height: 1.8rem;
+  padding: 0.5rem;
+}
+.second-item-information h3 {
+  color: var(--text-color-3);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.second-item-information p {
+  color: var(--text-color-2);
+}
+#sub-list-main-first-item {
+  flex-basis: 35%;
+}
+#sub-list-main-first-item img {
+  width: 100%;
+}
+#sub-list-main-second-item {
+  flex-basis: 60%;
+}
+#sub-list-main-container-2 {
+  background-color: var(--trail-form-header-color);
+  padding: 5rem 0px;
+}
+#sub-list-main-2 {
+  display: flex;
+  justify-content: space-between;
+}
+#sub-list-main-second-item-2 {
+  flex-basis: 50%;
+}
+#sub-list-main-first-item-2 {
+  flex-basis: 40%;
+}
+#sub-list-main-first-item-2 img {
+  width: 100%;
 }
