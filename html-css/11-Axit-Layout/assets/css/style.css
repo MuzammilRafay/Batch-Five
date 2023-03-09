@@ -326,3 +326,51 @@ header {
 #sub-list-main-first-item-2 img {
   width: 100%;
 }
+
+#awesome-container {
+  padding: 8rem 0px;
+}
+#awesome-sub-container {
+  text-align: center;
+}
+#awesome-sub-container h2 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+#awesome-sub-container hr {
+  margin: 0 auto;
+  width: 6%;
+  margin-bottom: 1.5rem;
+}
+
+#awesome-item-container {
+  display: flex;
+  justify-content: space-between;
+}
+.awesome-items {
+  flex-basis: 28%;
+}
+
+.awesome-items h3 {
+  font-size: 1.2rem;
+  color: var(--text-color-3);
+  margin: 1.2rem 0px;
+}
+.awesome-items p {
+  color: var(--text-color-2);
+}
+#pricing-section {
+  padding: 8rem 0px;
+  background-color: var(--trail-form-header-color);
+  text-align: center;
+}
+
+#pricing-sub-section h2 {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+#pricing-sub-section hr {
+  margin: 0 auto;
+  width: 4%;
+  margin-bottom: 1.5rem;
+}
