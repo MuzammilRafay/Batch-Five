@@ -7,6 +7,7 @@
   --primary-color: #ff8b38;
   --primary-color-2: #ff9b51;
   --border-color: #d6d6d6;
+  --border-color-2: #72717126;
   --trail-form-header-color: #f5f5f5;
   --font-family: "Myriad Pro Regular";
 }
@@ -373,4 +374,62 @@ header {
   margin: 0 auto;
   width: 4%;
   margin-bottom: 1.5rem;
+}
+
+.main-pricing-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.main-pricing-items {
+  flex-basis: 28%;
+}
+.main-pricing-header {
+  background-color: var(--text-color-3);
+  color: var(--white);
+  padding: 0.8rem 0px;
+  border-bottom: 1px solid var(--white);
+}
+.main-pricing-body {
+  background-color: var(--text-color-3);
+  color: var(--white);
+  padding: 1.5rem;
+}
+.main-pricing-price {
+  font-size: 4rem !important;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.main-pricing-price span {
+  font-size: 2.5rem;
+}
+.main-pricing-paragraph {
+  color: var(--text-color-2);
+  font-style: italic;
+}
+.main-pricing-body {
+  border-bottom: 6px solid var(--primary-color);
+}
+.main-pricing-footer {
+  background-color: var(--white);
+}
+.main-footer-items {
+  padding: 1rem 0px;
+  border-bottom: 1px solid var(--border-color-2);
+}
+.main-footer-items p {
+  color: var(--text-color-2);
+}
+
+#main-pricing-popular-package {
+  background-color: var(--primary-color);
+  margin-top: 2rem;
+  padding: 0.5rem 0px;
+}
+.main-pricing-popular-package h3 {
+  font-weight: 100;
+}
+
+#main-pricing-items-popular .main-pricing-body {
+  padding: 0;
 }
