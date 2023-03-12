@@ -433,3 +433,78 @@ header {
 #main-pricing-items-popular .main-pricing-body {
   padding: 0;
 }
+#customer-review-section {
+  padding: 8rem 0px;
+}
+#customer-review-sub-section {
+  text-align: center;
+}
+#customer-review-sub-section hr {
+  margin: 0 auto;
+}
+#customer-review-sub-section h2 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+#customer-review-sub-section .sub-list-paragraph {
+  margin-top: 1.5rem;
+}
+#customer-reviews {
+  display: flex;
+  justify-content: space-between;
+}
+.customer-reviews-items {
+  flex-basis: 28%;
+}
+.customer-review-body {
+  background-color: var(--trail-form-header-color);
+  color: var(--text-color-2);
+  padding: 1.5rem 1rem;
+  text-align: left;
+  position: relative;
+}
+.customer-review-body img {
+  bottom: -1rem;
+  position: absolute;
+  left: 2rem;
+}
+.customer-review-footer {
+  display: flex;
+  margin-top: 2rem;
+}
+.customer-review-footer-first {
+  flex-basis: 27%;
+}
+.customer-review-footer-second {
+  text-align: left;
+}
+.customer-review-footer-second h3 {
+  color: var(--text-color-3);
+}
+#prototype-container {
+  background-image: url("../images/u25_state0.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 8rem 0px;
+}
+#prototype-sub-section .sub-list-heading {
+  color: var(--white);
+  font-size: 2.3rem;
+  font-weight: 100;
+}
+
+#prototype-sub-section .sub-list-heading-divider {
+  margin: 0 auto;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  margin-bottom: 1rem;
+  width: 4%;
+}
+
+#prototype-sub-section button {
+  background-color: transparent;
+  color: var(--white);
+  padding: 0.6rem 2rem;
+  border: 1px solid var(--white);
+}
